@@ -1,6 +1,5 @@
 const fs = require('fs');
-const puppeteer = require('puppeteer'); // le library puppeteer (comme Selenium)
-const config = require('./config.json'); // un json avev les infos 
+const puppeteer = require('@mohdzish/nobo-test/node_modules/puppeteer'); // le library puppeteer (comme Selenium)
 
 module.exports = {
     loginFacebook

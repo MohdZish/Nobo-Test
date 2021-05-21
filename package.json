@@ -1,12 +1,13 @@
 {
-  "name": "@mohdzish/nobo-test",
+  "name": "@mohdzish/mainproject",
   "version": "1.0.0",
   "description": "A Javascript program to automate Facebook login, made using Puppeteer for Nobo by Zishan.",
   "main": "index.js",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@MohdZish"
+    "registry": "https://npm.pkg.github.com/@MohdZish"
   },
   "dependencies": {
+    "@mohdzish/nobo-test": "git+https://github.com/mohdzish/nobo-test.git",
     "puppeteer": "^9.1.1"
   },
   "devDependencies": {},
