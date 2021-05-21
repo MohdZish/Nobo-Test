@@ -1,5 +1,5 @@
 {
-  "name": "@mohdzish/mainprogram",
+  "name": "@mohdzish/nobo-ttest",
   "version": "1.0.0",
   "description": "A Javascript program to automate Facebook login, made using Puppeteer for Nobo by Zishan.",
   "main": "index.js",
