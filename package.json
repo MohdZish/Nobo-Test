@@ -1,0 +1,23 @@
+{
+  "name": "@nobo/nobotest",
+  "version": "1.0.0",
+  "description": "A Javascript program to automate Facebook login, made using Puppeteer for Nobo by Zishan.",
+  "main": "index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@MohdZish"
+  },
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "login": "node index"
+  },
+  "author": "Mohammed Zishan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohdZish/Nobo-Test/issues"
+  },
+  "homepage": "https://github.com/MohdZish/Nobo-Test#readme",
+  "private": true
+}
