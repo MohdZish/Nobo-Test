@@ -1,19 +1,56 @@
 {
-  "name": "@mohdzish/mainproject",
-  "version": "1.0.0",
+  "_from": "git+https://github.com/mohdzish/nobo-test.git",
+  "_id": "@mohdzish/nobo-test@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@mohdzish/nobo-test",
+  "_phantomChildren": {
+    "debug": "4.3.1",
+    "devtools-protocol": "0.0.869402",
+    "extract-zip": "2.0.1",
+    "https-proxy-agent": "5.0.0",
+    "node-fetch": "2.6.1",
+    "pkg-dir": "4.2.0",
+    "progress": "2.0.3",
+    "proxy-from-env": "1.1.0",
+    "rimraf": "3.0.2",
+    "tar-fs": "2.1.1",
+    "unbzip2-stream": "1.4.3",
+    "ws": "7.4.5"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/mohdzish/nobo-test.git",
+    "rawSpec": "git+https://github.com/mohdzish/nobo-test.git",
+    "saveSpec": "git+https://github.com/mohdzish/nobo-test.git",
+    "fetchSpec": "https://github.com/mohdzish/nobo-test.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/mohdzish/nobo-test.git#c5788950ed22110db34889c335c864f3cbdf3081",
+  "_spec": "git+https://github.com/mohdzish/nobo-test.git",
+  "_where": "C:\\Users\\zisha\\Music\\Testing",
+  "author": {
+    "name": "Mohammed Zishan"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  },
+  "deprecated": false,
   "description": "A Javascript program to automate Facebook login, made using Puppeteer for Nobo by Zishan.",
+  "devDependencies": {},
+  "license": "ISC",
   "main": "index.js",
+  "name": "@mohdzish/nobo-test",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@MohdZish"
   },
-  "dependencies": {
-    "@mohdzish/nobo-test": "git+https://github.com/mohdzish/nobo-test.git",
-    "puppeteer": "^9.1.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "login": "node index"
   },
-  "author": "Mohammed Zishan",
-  "license": "ISC"
+  "version": "1.0.0"
 }
